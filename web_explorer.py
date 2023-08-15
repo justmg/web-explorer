@@ -3,7 +3,6 @@ from langchain.callbacks.base import BaseCallbackHandler
 from langchain.chains import RetrievalQAWithSourcesChain
 from langchain.retrievers.web_research import WebResearchRetriever
 
-import os
 
 
 st.set_page_config(page_title="Interweb Explorer", page_icon="🌐")
